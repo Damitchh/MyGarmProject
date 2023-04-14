@@ -13,7 +13,7 @@ var (
 	host     = os.Getenv("PGHOST")
 	user     = os.Getenv("PGUSER")
 	password = os.Getenv("PGPASSWORD")
-	dbport   = os.Getenv("PGPORT")
+	dbport   = 6469
 	dbname   = os.Getenv("PGDATABASE")
 
 	db  *gorm.DB
